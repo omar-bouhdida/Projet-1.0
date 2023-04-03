@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .logo{
+   width: 70px;
+   margin-right: 20px;
+   cursor: pointer; 
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.footer {
+    
+    margin-top: auto;
+    top: 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #5e17eb;
+}
+.footer ul {
+    list-style: none;
+}
+.row {
+    display: flex;
+    padding-left: 30px;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 0px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 10px;
+}
+
+.events{
+    margin: 20px 0;
+}
+.events .box-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap:15px;
+}   
+.events .box-container .box{
+     padding:20px;
+     border-radius: 5px;
+     flex:1 1 350px;
+     background-color:whitesmoke;
+}
+.events .box-container .box span{
+    color:royalblue;
+    font-size: 35px;
+    position: relative;
+
+  }
+  .events .span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 120px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, black, #959899);
+  }
+  .events .title{
+    font-weight: 500;
+    position: relative;
+    margin-left: 38%;
+    font-size: 50px;
+    color:#959899;
+    margin-bottom: 15px;
+  }
+  .events .box-container .box p{
+    line-height: 2;
+    font-size: 22px;
+  }  
+  .events .box-container .box .title1{
+    color:#959899;
+    font-size: 30px;
+    padding:5px 0;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 10%;
+  }
+ 
+  .events .box-container .box{
+    padding:20px;
+    border-radius: 5px;
+    flex:1 1 350px;
+    background: #E4E7E8;
+  }
+  .events .box-container .box .slide{
+    height: 470px;
+    width: 800px;
+    margin-left: 22%;
+    border-radius: 10px;
+  }
