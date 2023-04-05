@@ -137,7 +137,14 @@ body{
     margin-bottom: 15px;
     margin-left: 10%;
   }
- 
+  .events .box-container .box .date{
+    color:#959899;
+    font-size: 25px;
+    padding:5px 0;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 10%;
+  }
   .events .box-container .box{
     padding:20px;
     border-radius: 5px;
